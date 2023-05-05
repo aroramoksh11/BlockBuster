@@ -1,0 +1,6 @@
+Here are some changes you need to make to the code for Windows users:
+
+Change the hosts_path variable to 'C:\Windows\System32\drivers\etc\hosts'
+
+If you are using Python 3.9 or earlier version , you need to change the open function to open(file_path, 'r+') in both the block_websites() and unblock_websites() functions which are listed in the code .
+If it shows file directory or path issue just go to windows path directory and copy the location address with the host part.
